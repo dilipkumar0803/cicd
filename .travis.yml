@@ -3,5 +3,5 @@ language: swift
 os: osx
 osx_image: xcode12.3
 script:
-  - "xcodebuild clean -project DemoCicd/DemoCicd.xcworkspace -scheme DemoCicd"
-  - "xcodebuild test -project DemoCicd/DemoCicd.xcworkspace -scheme DemoCicd -destination 'platform=iOS Simulator,name=iPhone XR,OS=14.3'"
+  - "xcodebuild clean -project DemoCicd/DemoCicd.xcodeproj -scheme DemoCicd"
+  - "xcodebuild test -project DemoCicd/DemoCicd.xcodeproj -scheme DemoCicd -destination 'platform=iOS Simulator,name=iPhone XR,OS=14.3'"
