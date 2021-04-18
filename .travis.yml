@@ -4,4 +4,4 @@ os: osx
 osx_image: xcode12.3
 script:
   - "xcodebuild clean -project DemoCicd/DemoCicd.xcodeproj -scheme DemoCicd"
-  - "xcodebuild test -project DemoCicd/DemoCicd.xcodeproj -scheme DemoCicd -destination 'platform=iOS Simulator,name=iPhone XR,OS=14.3'"
+  - "xcodebuild test -project DemoCicd/DemoCicd.xcodeproj -scheme DemoCicd -destination 'platform=iOS Simulator,name=iPhone 12 Pro Max,OS=14.3'"
