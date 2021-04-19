@@ -21,8 +21,8 @@ class DemoCicdTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let name = "dilip"
-        XCTAssert(name == "dilip", "Correct Name")
+        let name = 4 + 5
+        XCTAssert(name == 9, "Correct Value")
             
     }
 
